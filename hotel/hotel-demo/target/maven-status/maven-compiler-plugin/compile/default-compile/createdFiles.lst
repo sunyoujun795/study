@@ -1,0 +1,12 @@
+cn\itcast\hotel\pojo\Hotel.class
+cn\itcast\hotel\constants\HotelIndexConstants.class
+cn\itcast\hotel\mq\HotelListener.class
+cn\itcast\hotel\mapper\HotelMapper.class
+cn\itcast\hotel\HotelDemoApplication.class
+cn\itcast\hotel\web\HotelController.class
+cn\itcast\hotel\pojo\RequestParams.class
+cn\itcast\hotel\pojo\PageResult.class
+cn\itcast\hotel\service\IHotelService.class
+cn\itcast\hotel\constants\HotelMqConstants.class
+cn\itcast\hotel\service\impl\HotelService.class
+cn\itcast\hotel\pojo\HotelDoc.class

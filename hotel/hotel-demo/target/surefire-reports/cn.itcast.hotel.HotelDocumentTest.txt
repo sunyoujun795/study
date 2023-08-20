@@ -1,0 +1,105 @@
+-------------------------------------------------------------------------------
+Test set: cn.itcast.hotel.HotelDocumentTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 16.618 s <<< FAILURE! - in cn.itcast.hotel.HotelDocumentTest
+testUpdateById  Time elapsed: 1.038 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelDocumentTest.testUpdateById(HotelDocumentTest.java:82)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testAddDocument  Time elapsed: 12.481 s  <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: 
+nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in cn/itcast/hotel/mapper/HotelMapper.java (best guess)
+### The error may involve cn.itcast.hotel.mapper.HotelMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testAddDocument(HotelDocumentTest.java:38)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in cn/itcast/hotel/mapper/HotelMapper.java (best guess)
+### The error may involve cn.itcast.hotel.mapper.HotelMapper.selectById
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testAddDocument(HotelDocumentTest.java:38)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testAddDocument(HotelDocumentTest.java:38)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testAddDocument(HotelDocumentTest.java:38)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testAddDocument(HotelDocumentTest.java:38)
+Caused by: java.net.UnknownHostException: mysql
+	at cn.itcast.hotel.HotelDocumentTest.testAddDocument(HotelDocumentTest.java:38)
+
+testDeleteDocumentById  Time elapsed: 1.004 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelDocumentTest.testDeleteDocumentById(HotelDocumentTest.java:70)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testGetDocumentById  Time elapsed: 1.032 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelDocumentTest.testGetDocumentById(HotelDocumentTest.java:57)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testBulkRequest  Time elapsed: 1.056 s  <<< ERROR!
+org.mybatis.spring.MyBatisSystemException: 
+nested exception is org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in cn/itcast/hotel/mapper/HotelMapper.java (best guess)
+### The error may involve cn.itcast.hotel.mapper.HotelMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testBulkRequest(HotelDocumentTest.java:88)
+Caused by: org.apache.ibatis.exceptions.PersistenceException: 
+
+### Error querying database.  Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+### The error may exist in cn/itcast/hotel/mapper/HotelMapper.java (best guess)
+### The error may involve cn.itcast.hotel.mapper.HotelMapper.selectList
+### The error occurred while executing a query
+### Cause: org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testBulkRequest(HotelDocumentTest.java:88)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: 
+Failed to obtain JDBC Connection; nested exception is com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testBulkRequest(HotelDocumentTest.java:88)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testBulkRequest(HotelDocumentTest.java:88)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: 
+Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at cn.itcast.hotel.HotelDocumentTest.testBulkRequest(HotelDocumentTest.java:88)
+Caused by: java.net.UnknownHostException: mysql
+	at cn.itcast.hotel.HotelDocumentTest.testBulkRequest(HotelDocumentTest.java:88)
+

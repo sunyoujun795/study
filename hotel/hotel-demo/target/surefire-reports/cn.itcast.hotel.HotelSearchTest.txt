@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: cn.itcast.hotel.HotelSearchTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 6.14 s <<< FAILURE! - in cn.itcast.hotel.HotelSearchTest
+testMatch  Time elapsed: 1.028 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelSearchTest.testMatch(HotelSearchTest.java:50)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testBool  Time elapsed: 1.028 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelSearchTest.testBool(HotelSearchTest.java:74)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testSortAndPage  Time elapsed: 1.035 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelSearchTest.testSortAndPage(HotelSearchTest.java:95)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testHighlight  Time elapsed: 2.023 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelSearchTest.testHighlight(HotelSearchTest.java:110)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
+testMatchAll  Time elapsed: 1.02 s  <<< ERROR!
+java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+	at cn.itcast.hotel.HotelSearchTest.testMatchAll(HotelSearchTest.java:37)
+Caused by: java.net.ConnectException: Timeout connecting to [/192.168.150.101:9200]
+
